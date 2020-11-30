@@ -1,0 +1,69 @@
+<div>
+
+  <p><span style="font-size:16px;">Request for support from {fullName}</span></p>
+
+  <p><span style="font-size:16px;">Case reference: {case_ref}</span></p>
+
+  <p><span style="font-size:16px;">Case created: {dateTimeCreated}</span></p>
+
+  <p><span style="font-size:18px;"><strong>Personal details</strong></span></p>
+
+</div>
+
+<table style="width:100%; border:3px solid black;text-align:center;">
+	<tbody>
+		<tr>
+			<td style="width: 40%; border:1px solid black; padding: 6px 6px 6px 6px"><strong>Customer name:</strong></td>
+			<td style="width: 60%; border:1px solid black; padding: 6px 6px 6px 6px">{fullName}</td>
+		</tr>
+		<tr height="40">
+			<td align="center" style="width: 40%; border:1px solid black; padding: 4px 4px 4px 4px"><strong>Customer address:</strong></td>
+			<td align="center" style="width: 60%; border:1px solid black; padding: 4px 4px 4px 4px">{addressString}</td>
+		</tr>
+		<tr height="40">
+			<td align="center" style="width: 40%; border:1px solid black; padding: 4px 4px 4px 4px"><strong>Email address:</strong></td>
+			<td align="center" style="width: 60%; border:1px solid black; padding: 4px 4px 4px 4px">{emailAddress}</td>
+		</tr>
+		<tr height="40">
+			<td align="center" style="width: 40%; border:1px solid black; padding: 4px 4px 4px 4px"><strong>Contact number:</strong></td>
+			<td align="center" style="width: 60%; border:1px solid black; padding: 4px 4px 4px 4px">{contactNumber}</td>
+		</tr>
+		<tr height="40">
+			<td align="center" style="width: 40%; border:1px solid black; padding: 4px 4px 4px 4px"><strong>Service:</strong></td>
+			<td align="center" style="width: 60%; border:1px solid black; padding: 4px 4px 4px 4px">{selectService}</td>
+		</tr>
+		<tr>
+			<td align="center" style="width: 40%; border:1px solid black; padding: 4px 4px 4px 4px"><strong>Service/Account Ref No:</strong></td>
+			<td align="center" style="width: 60%; border:1px solid black; padding: 4px 4px 4px 4px">{serviceRefNumber}</td>
+		</tr>
+	</tbody>
+</table>
+
+<div>
+  <p><span style="font-size:18px;"><strong>Bank Account Details</strong></span></p>
+</div>
+
+<table style="width:100%; border-collapse: collapse; border:3px solid black;text-align:center;">
+  <tbody>
+    <tr>
+      <td style="width: 40%; border:1px solid black; padding: 4px 4px 4px 4px"><strong>Name of Account Holder:</strong></td>
+      <td style="width: 60%; border:1px solid black; padding: 4px 4px 4px 4px">{accountHolderName}</td>
+    </tr>
+    <tr>
+      <td style="width: 40%; border:1px solid black; padding: 4px 4px 4px 4px"><strong>Branch sort code:</strong></td>
+      <td style="width: 60%; border:1px solid black; padding: 4px 4px 4px 4px">{sortCode}</td>
+    </tr>
+    <tr>
+      <th style="width: 40%; border:1px solid black; padding: 4px 4px 4px 4px"><strong>Bank \ Building Society Account Number:</strong></th>
+      <td style="width: 60%; border:1px solid black; padding: 4px 4px 4px 4px">{accountNumber}</td>
+    </tr>
+    <tr>
+      <td style="width: 40%; border:1px solid black; padding: 6px 6px 6px 6px"><strong>Payment recurrence:</strong></td>
+      <td style="width: 60%; border:1px solid black; padding: 6px 6px 6px 6px">{paymentRecurrence}</td>
+    </tr>
+    <tr height="40">
+      <td style="width: 40%; border:1px solid black; padding: 4px 4px 4px 4px"><strong>Payment day:</strong></td>
+      <td style="width: 60%; border:1px solid black; padding: 4px 4px 4px 4px">{confirmPaymentDay}</td>
+    </tr>
+  </tbody>
+</table>
